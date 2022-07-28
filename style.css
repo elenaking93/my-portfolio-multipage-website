@@ -6,6 +6,7 @@
 
 body {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 h1,
@@ -109,8 +110,5 @@ p {
   }
   .col-sm-4 {
     margin-bottom: 20px;
-  }
-  #contact {
-    margin-bottom: 40px;
   }
 } ;
