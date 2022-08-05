@@ -44,12 +44,24 @@ h3 {
   font-weight: normal;
   color: #272142;
 }
+.projects-paragraph {
+  font-size: 16;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
 
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 30px;
+}
+.app-headings {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  font-weight: bold;
 }
 
 .navigation-links {
@@ -95,14 +107,16 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-.primary-link {
+.btn-app {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background-color: var(--secondary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+.project-description {
+  padding: 90px 50px;
 }
 @media (max-width: 576px) {
   .col-md-6 {
@@ -119,5 +133,11 @@ p {
   }
   .col-sm-4 {
     margin-bottom: 20px;
+  }
+  .project-description {
+    padding: 0;
+  }
+  .app-headings {
+    font-size: 42px;
   }
 } ;
