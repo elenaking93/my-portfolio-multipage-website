@@ -118,7 +118,7 @@ p {
 .project-description {
   padding: 90px 50px;
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .col-md-6 {
     text-align: center;
   }
