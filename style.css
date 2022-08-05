@@ -140,4 +140,10 @@ p {
   .app-headings {
     font-size: 42px;
   }
+  body {
+    line-height: 1;
+  }
+  .welcome-block {
+    padding: 75px 20px;
+  }
 } ;
