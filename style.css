@@ -44,21 +44,21 @@ h3 {
   font-weight: normal;
   color: #272142;
 }
-.about-section {
+.content-container {
   display: block;
-  padding: 145px 20px;
+  padding: 90px 20px;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 85px;
   text-align: left;
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   color: #272142;
   line-height: 27px;
 }
-.about-section p {
+.content-container p {
   font-size: 16px;
   line-height: 30px;
   color: rgba(39, 33, 66, 0.7);
@@ -73,7 +73,7 @@ h3 {
 .main-photo {
   border-radius: 7px;
 }
-.about-me-content {
+.content {
   margin: 70px;
 }
 
@@ -173,10 +173,10 @@ p {
   .welcome-block {
     padding: 75px 20px;
   }
-  .about-section {
+  .content-container {
     padding: 30px 15px;
   }
-  .about-section h1 {
+  .content-container h1 {
     font-size: 48px;
     line-height: 1;
     text-align: center;
